@@ -1,0 +1,21 @@
+  IUCAA_Sarathi_Frontier_Squid:
+    Active: true
+    ContactLists:
+      Administrative Contact:
+        Primary:
+          ID: 9a7d75ea65a2962520279197c72df6a16e1533a1
+          Name: Sandeep K. Joshi
+      Security Contact:
+        Primary:
+          Name: IUCAA support
+          ID: 2e47726bf41f2128059de31cf7bc9c8d5dcadad6
+    Description: Internal FQDN for one of the 6 Frontier Squid nodes, each one on a different PVE node.
+    FQDN: sc01.sarathi.iucaa.in
+    ID: 925
+    Services:
+      Squid:
+        Description: Generic squid service
+        Details:
+          Monitored: false
+    VOOwnership:
+      IUCAA: 100
